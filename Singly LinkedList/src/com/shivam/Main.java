@@ -1,6 +1,8 @@
 package com.shivam;
 
-
+/**
+ * created by Shivam on 17-02-2019.
+ */
 
 
 /*
@@ -9,8 +11,9 @@ package com.shivam;
 ---------------------------------------
 
  We can dynamically add a new element because of no fixed size as in array.
+ we can also add element at front or in between two elements without shifting elements as in arrays.
 
- we can also add element at front without shifting elements as in arrays.
+
 
  Disadvantage of linked list ->
 ----------------------------------------
@@ -25,6 +28,35 @@ package com.shivam;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        MyLinkedList<String> list =new MyLinkedList<>();
+
+
+        list.insert("Hello ");
+        list.insertAtStart("============");
+        list.insert("This is");
+        list.insert("a");
+        list.insert("Oops! Wrong Entry. Delete me ......");
+        list.insertAtIndex(4,"working");
+        list.insert("singly");
+        list.insert("LinkedList .");
+        list.deleteAtIndex(5);
+
+
+        list.show();
+
     }
+
+
+    // OUTPUT ->
+
+    /*
+    ============
+    Hello
+    This is
+    a
+    working
+    singly
+    LinkedList .
+     */
 }
