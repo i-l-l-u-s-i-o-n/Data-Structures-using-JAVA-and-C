@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20152e43-dad6-41a5-9245-7f310a6dd258" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../STACK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STACK/out/production/STACK using Array/com/shivam/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK/out/production/STACK using Array/com/shivam/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STACK/out/production/STACK using Array/com/shivam/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK/out/production/STACK using Array/com/shivam/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STACK/src/com/shivam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK/src/com/shivam/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STACK/src/com/shivam/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK/src/com/shivam/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/.idea/dictionaries/SHIVAM.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/STACK using Array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/out/production/STACK using Array/com/shivam/Main$S.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/out/production/STACK using Array/com/shivam/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/out/production/STACK using Array/com/shivam/MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/src/com/shivam/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed length)/src/com/shivam/MyStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1364" />
@@ -110,8 +120,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550395908557" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IdeaProjects/Generic Class" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550400806237" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../STACK using Array(Fixed  length)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
@@ -153,15 +163,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550379421253</updated>
-      <workItem from="1550379424891" duration="8512000" />
+      <workItem from="1550379424891" duration="9115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8512000" />
+    <option name="totallyTimeSpent" value="9115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />

@@ -26,24 +26,35 @@ public class Main {
 
     public static void main(String[] args) {
 
-        MyStack<S> stack=new MyStack<>(5);
+        MyStack<S> stack=new MyStack<>();
 
+
+        System.out.println("Initial Size : "+stack.size());
         stack.pop();
         stack.push(new S(101,"Shivam"));
         stack.push(new S(102,"Shivam"));
+
         stack.push(new S(103,"Tim"));
         stack.push(new S(104,"Steele"));
+
+        System.out.println("Expanded Size : "+stack.size());
+
         stack.push(new S(104,"Robert"));
         stack.push(new S(104,"Colt"));
+
+        System.out.println("Final Size : "+stack.size());
 
         stack.show();
         stack.peek();
 
 
         stack.pop();
+        stack.pop();
+        stack.pop();
+
 
         stack.show();
-        stack.peek();
+        System.out.println("Final Size after shrinking : "+stack.size());
     }
     private static class S{
 
@@ -65,19 +76,23 @@ public class Main {
 // OUTPUT ->
 
 /*
+Initial Size : 2
 Stack is EMPTY
-Stack is FULL.
+Expanded Size : 4
+Final Size : 8
 	Roll No : 101     Name : Shivam
 	Roll No : 102     Name : Shivam
 	Roll No : 103     Name : Tim
 	Roll No : 104     Name : Steele
 	Roll No : 104     Name : Robert
-Top Element : 		Roll No : 104     Name : Robert
+	Roll No : 104     Name : Colt
+Top Element : 		Roll No : 104     Name : Colt
+Deleted Element : 	Roll No : 104     Name : Colt
 Deleted Element : 	Roll No : 104     Name : Robert
+Deleted Element : 	Roll No : 104     Name : Steele
 	Roll No : 101     Name : Shivam
 	Roll No : 102     Name : Shivam
 	Roll No : 103     Name : Tim
-	Roll No : 104     Name : Steele
-Top Element : 		Roll No : 104     Name : Steele
+Final Size after shrinking : 4
 
 */
