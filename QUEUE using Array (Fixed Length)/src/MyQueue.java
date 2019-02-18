@@ -19,7 +19,7 @@ public class MyQueue<T> {
     public void enqueue(T item){
 
 
-        if (queue[rear]==null){
+        if (!isFull()){
             queue[rear]=item;
             rear=(rear+1)%5;
             size++;
@@ -32,18 +32,37 @@ public class MyQueue<T> {
 
     public void dequeue(){
 
-        System.out.println("\nDeleted Element : "+queue[front]);
-        queue[front]=null;
-        front=(front+1)%5;
-        size--;
+        if(!isEmpty()){
+            System.out.println("\nDeleted Element : "+queue[front]);
+            queue[front]=null;
+            front=(front+1)%5;
+            size--;
+            return;
+        }
+        System.out.println("QUEUE is EMPTY !!");
+
 
     }
+//    public void show(){
+//        for(Object item:queue){
+//            if (item!=null)
+//                System.out.print(item+"\t");
+//        }
+//
+//    }
     public void show(){
-        for(Object item:queue){
-            if (item!=null)
-                System.out.print(item+"\t");
-        }
+//        System.out.println();
+//        for (int i=front;i!=rear;i=(i+1)%5){
+//            System.out.print("\t"+queue[i]);
+//        }
+        int i=front;
 
+        // when the last element is inserted , front==rear,so we have to make the loop execute once,so we use do-while().
+
+        do{
+            System.out.print("\t"+queue[i]);
+            i=(i+1)%5;
+        }while (i!=rear);
     }
 
     public int getSize(){
@@ -51,7 +70,11 @@ public class MyQueue<T> {
     }
 
     public boolean isEmpty(){
-        return size==0;
+        return getSize()==0;
+    }
+
+    public boolean isFull(){
+        return getSize()==5;
     }
 
 }
