@@ -13,29 +13,45 @@ public class MyQueue<T> {
         this.size = 0;
         front=0;
         rear=0;
-        queue=new Object[10];
+        queue=new Object[5];
     }
 
     public void enqueue(T item){
 
-        queue[rear]=item;
-        rear++;
-        size++;
+
+        if (queue[rear]==null){
+            queue[rear]=item;
+            rear=(rear+1)%5;
+            size++;
+            return;
+        }
+        System.out.println("Queue is FULL");
+
     }
 
 
     public void dequeue(){
 
-        System.out.println("Deleted Element : "+queue[front]);
+        System.out.println("\nDeleted Element : "+queue[front]);
         queue[front]=null;
-        front++;
+        front=(front+1)%5;
+        size--;
 
     }
     public void show(){
         for(Object item:queue){
             if (item!=null)
-                System.out.println(item);
+                System.out.print(item+"\t");
         }
+
+    }
+
+    public int getSize(){
+        return size;
+    }
+
+    public boolean isEmpty(){
+        return size==0;
     }
 
 }

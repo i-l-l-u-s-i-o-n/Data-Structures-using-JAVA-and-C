@@ -19,14 +19,22 @@ public class Main {
 
         queue.enqueue("Hello ");
         queue.enqueue("There ! ");
+        System.out.println(queue.getSize());
+        queue.show();
+        queue.dequeue();
+        queue.show();
         queue.enqueue("It's");
         queue.enqueue("in");
-        queue.enqueue("Progress");
+//        queue.enqueue("Progress");
+//        queue.enqueue("Progress");
+//        queue.enqueue("Progress");
 
-        queue.show();
 
+        System.out.println(queue.getSize());
 
-        queue.dequeue();
+//        queue.dequeue();
+//        queue.dequeue();
+//        queue.dequeue();
 
         queue.show();
 
