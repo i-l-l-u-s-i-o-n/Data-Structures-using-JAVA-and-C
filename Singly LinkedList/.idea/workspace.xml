@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20152e43-dad6-41a5-9245-7f310a6dd258" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../STACK using Array(Dynamic stack)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using Array(Dynamic stack)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../STACK using Array(Fixed  length)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using Array(Fixed  length)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using LinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using LinkedList/out/production/STACK using LinkedList/com/shivam/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using LinkedList/out/production/STACK using LinkedList/com/shivam/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using LinkedList/out/production/STACK using LinkedList/com/shivam/stack/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using LinkedList/out/production/STACK using LinkedList/com/shivam/stack/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using LinkedList/src/com/shivam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using LinkedList/src/com/shivam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using LinkedList/src/com/shivam/stack/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using LinkedList/src/com/shivam/stack/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using LinkedList/src/com/shivam/stack/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using LinkedList/src/com/shivam/stack/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STACK using LinkedList/src/com/shivam/stack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using LinkedList/src/com/shivam/stack/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,19 +21,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shivam/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="238">
+              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shivam/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1445">
+            <state relative-caret-position="-272">
               <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
@@ -148,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550379421253</updated>
       <workItem from="1550379424891" duration="9287000" />
-      <workItem from="1550503744286" duration="671000" />
+      <workItem from="1550503744286" duration="1286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9958000" />
+    <option name="totallyTimeSpent" value="10573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
@@ -225,6 +231,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/shivam/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shivam/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -234,15 +247,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shivam/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1445">
+        <state relative-caret-position="-272">
           <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shivam/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

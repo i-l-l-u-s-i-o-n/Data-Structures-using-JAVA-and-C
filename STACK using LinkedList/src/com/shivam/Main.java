@@ -23,13 +23,63 @@ public class Main {
         stack.show();
         stack.size();
 
+//        stack.push(22);        It won't work as We declared Type of Stack to be String and passing a integer.
 
         stack.push("This");
         stack.push("is working");
         stack.push("STACK");
         stack.size();
-        stack.size();
 
         stack.show();
     }
+
+    public class S{
+        int i=67;
+    }
 }
+
+
+// OUTPUT ->
+/*
+Successfully Inserted : Hey
+Successfully Inserted : There !
+Top element : There !
+
+======================STACK ELEMENTS====================
+
+	[2]   There !
+	[1]   Hey
+
+=======================================================
+
+Successfully deleted : There !
+Successfully deleted : Hey
+STACK is EMPTY !!
+STACK is EMPTY !!
+STACK is EMPTY !!
+Successfully Inserted : Hey
+Successfully Inserted : There !
+
+======================STACK ELEMENTS====================
+
+	[2]   There !
+	[1]   Hey
+
+=======================================================
+
+Top is : 2
+Successfully Inserted : This
+Successfully Inserted : is working
+Successfully Inserted : STACK
+Top is : 5
+
+======================STACK ELEMENTS====================
+
+	[5]   STACK
+	[4]   is working
+	[3]   This
+	[2]   There !
+	[1]   Hey
+
+=======================================================
+ */

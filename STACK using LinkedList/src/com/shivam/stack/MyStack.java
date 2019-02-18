@@ -1,25 +1,26 @@
 package com.shivam.stack;
 
-import com.shivam.stack.MyLinkedList;
 
 /**
  * created by Shivam on 18-02-2019.
  */
-public class MyStack<T> extends MyLinkedList{
+public class MyStack<T>{
 
-    MyLinkedList<T> list=new MyLinkedList<>() ;
+    MyLinkedList<T>  list;
 
+    public MyStack(){
+        list=new MyLinkedList<T>();
+    }
 
-
-    public void push(Object item){
+    public void push(T item){
         list.insertAtStart(item);
-        System.out.println("Inserted : "+item);
+        System.out.println("Successfully Inserted : "+item);
     }
 
 
     public void pop(){
 
-        Object deleted=list.removeFromStart();
+        T deleted=list.removeFromStart();
 
         if (deleted==null){
             System.out.println("STACK is EMPTY !!");

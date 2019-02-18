@@ -6,7 +6,7 @@ package com.shivam.stack;
  */
 public class MyLinkedList<T> {
 
-    private Node head;
+    private Node<T> head;
 
     protected static int length=0;
 
@@ -14,7 +14,7 @@ public class MyLinkedList<T> {
         head=null;
     }
 
-    protected void insertAtStart(Object item){
+    protected void insertAtStart(T item){
 
         Node node=new Node();
         node.item =item;
@@ -33,13 +33,13 @@ public class MyLinkedList<T> {
     }
 
 
-    protected Object removeFromStart(){
+    protected T removeFromStart(){
 
         if (head==null){
             return null;
         }
 
-        Object temp=head.item;
+        T temp=head.item;
 
         head=head.next;
         length--;
@@ -50,16 +50,27 @@ public class MyLinkedList<T> {
 
     protected void show(){
 
-        Node temp=head;
+        Node<T> temp=head;
 
+        if (temp==null){
+            System.out.println("STACK is EMPTY !!");
+            return;
+        }
+
+        System.out.println("\n======================STACK ELEMENTS====================\n");
+
+        int index=length;
 
         while (temp!=null){
-            System.out.println(temp.item);
+            System.out.println("\t["+(index--)+"]   "+temp.item);
             temp=temp.next;
         }
 
+
+        System.out.println("\n=======================================================\n");
+
     }
-    protected Node getHead(){
+    protected Node<T> getHead(){
         return head;
     }
 
