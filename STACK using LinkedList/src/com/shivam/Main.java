@@ -33,9 +33,7 @@ public class Main {
         stack.show();
     }
 
-    public class S{
-        int i=67;
-    }
+
 }
 
 
