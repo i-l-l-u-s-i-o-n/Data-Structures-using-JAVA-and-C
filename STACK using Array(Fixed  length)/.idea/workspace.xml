@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be5b24dc-6acd-4975-bb33-6b60e54da230" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/out/production/QUEUE using Array (Fixed Length)/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/out/production/QUEUE using Array (Fixed Length)/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/out/production/QUEUE using Array (Fixed Length)/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/out/production/QUEUE using Array (Fixed Length)/MyQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/src/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QUEUE using Array (Fixed Length)/src/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../STACK using LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../STACK using LinkedList/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +17,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shivam/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
+            <state relative-caret-position="17">
               <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
@@ -49,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1364" />
@@ -61,6 +56,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,14 +79,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550515782489" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550517572935" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -141,17 +136,17 @@
       <workItem from="1550400228863" duration="754000" />
       <workItem from="1550500166266" duration="2228000" />
       <workItem from="1550512049089" duration="644000" />
+      <workItem from="1550588328557" duration="446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4507000" />
+    <option name="totallyTimeSpent" value="4953000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -189,17 +184,17 @@
     <entry file="file://$PROJECT_DIR$/STACK using Array(Fixed length).iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shivam/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shivam/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shivam/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
